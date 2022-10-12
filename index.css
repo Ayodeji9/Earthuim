@@ -1,0 +1,450 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(1, 1, 41);
+    padding: 10px 100px;
+    
+}
+.div1{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 15%;
+}
+.list{
+    width: 70%;
+    margin-top: 10px;
+}
+.ulist{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+.link1{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.link1a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+} 
+.div2{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.english{
+    color: white;
+    font-size: 20px
+}
+.login{
+    border: 2px solid yellow;
+    background: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+.fa-lock{
+    font-size: 20px;
+    color: white;
+}
+.header{
+    background: url(./Earthium/image-04.png);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 150px;
+}
+.earth{
+    width: 50%;
+}
+.game{
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+.where{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.join{
+    color: black;
+    background-color: yellow;
+    padding: 10px 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+} 
+.image{
+    width: 50%;
+}  
+.header1{
+    background-color: rgb(1, 1, 41) ;
+    padding: 10px 150px;
+   
+}
+.header2{
+    background-color: rgb(1, 1, 41) ;
+    padding: 10px 150px;
+   
+}
+.header3{
+    background-color: rgb(1, 1, 41) ;
+    padding: 10px 150px;
+   
+}
+.subheader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.subheader1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.image1{
+    width: 40%;
+}
+.buy{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    padding:100px 50px;
+}
+.header4{
+    background-color: rgb(1, 1, 41) ;
+    padding: 10px 150px;
+}
+.header5{
+    background-color: rgb(1, 1, 41) ;
+   
+}
+
+.sub1{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 15px
+}
+.news{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.card{
+    width: 30%;
+    margin-top: 15px;
+}
+.card1{
+    width: 30%;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.words{
+    background-color: rgba(0, 0, 0, 0.737);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+.date{
+    font-size: 18px;
+    font-weight: 400;
+}
+.right{
+    font-weight: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.right1{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.footer1{
+    padding: 10px 100px ;
+    background-color: rgb(1, 1, 41) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 100px;
+}
+.earthium{
+    width: 40%;
+}
+.image3{
+    width: 30%;
+}
+.form{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.form1{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+.get{
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.footer2{
+    width: 60%;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.company{
+    width: 20%;
+}
+.company1{
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+}
+.ulist2{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.home2{
+    padding-top: 10px;
+}
+.links1{
+    width: 30%;
+    padding-left: 50px;
+}
+.links2{
+    width: 50%;
+    padding-left: 50px;
+}
+.ff{
+    color: white;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(1, 1, 41);
+        padding: 10px 20px;
+    }
+    .div1{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 50%;
+    }
+    .list{
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+    .ulist{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 20px;
+    }
+    .link1{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        background-color: yellow;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        
+    }
+    .link1a{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-size: 18px;
+        font-weight: 600;
+        
+    } 
+    .nav{
+        display: none;
+    }
+    .login{
+        border: 2px solid yellow;
+        background: none;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 50px;
+        border-radius: 5px;
+        margin-top: -10px;
+        margin-right: 120px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .earth{
+        width: 100%;
+    }
+    .game{
+        font-size: 25px;
+    }
+    .where{
+        font-size: 15px;
+    }
+    .image{
+        width: 100%;
+    }
+    .header1{
+        padding: 0px 20px;
+    }
+    .subheader{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .image1{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .buy{
+        font-size: 35px;
+        font-weight: 700;
+        color: white;
+        padding:20px 50px;
+    }
+
+.header2{
+    padding: 10px 20px;
+
+}
+.header3{
+    padding: 10px 20px;
+}
+.header4{
+    padding: 10px 20px;
+}
+.news{
+    font-size: 30px;
+}
+.card{
+    width: 100%;
+}
+.card1{
+    width: 100%;
+    margin-left: 1px;
+}
+.footer1{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.earthium{
+    width: 100%;
+}
+.image3{
+    width: 50%;
+}
+.ff{
+    font-size: 12px;
+}           
+.footer2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.links1{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.links2{
+    padding-left: 10px;
+    padding-top: 20px;
+    width: 100%;
+}
+.subheader1{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+}
